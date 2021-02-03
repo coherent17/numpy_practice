@@ -27,5 +27,24 @@ print(c)
 #[[1 2 3]
 # [4 5 6]
 # [7 8 9]]
-print(np.min(a),np.max(a))      #1 9
 
+#最小值與最大值
+print(np.min(c),np.max(c))                  #1 9
+
+#總和 乘積 平均
+print(np.sum(c),np.product(c),np.mean(c))   #45 362880 5.0
+
+#標準差
+print(np.std(c))                            #2.581988897471611
+
+#變異數
+print(np.var(c))                            #6.666666666666667
+
+#中位數
+print(np.median(c))                         #5.0
+
+#max-min
+print(np.ptp(c))                            #8
+
+#3. sort in numpy
+print("3.")
