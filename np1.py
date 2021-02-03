@@ -1,7 +1,6 @@
 import numpy as np
 
 #1. create the array
-print("1.")
 #list
 np1=np.array([1,2,3,4],int)
 print(np1,type(np1))
@@ -12,19 +11,16 @@ print(np2,type(np2))
 #[5. 6. 7. 8.] <class 'numpy.ndarray'>
 
 #2. arrange()
-print("2.")
 a=np.arange(0,31,2)
 print(a)
 #[ 0  2  4  6  8 10 12 14 16 18 20 22 24 26 28 30]
 
 #3. linspace()
-print("3.")
 b=np.linspace(1,15,3)
 print(b)
 #[ 1.  8. 15.]
 
 #4. zeros() and ones()
-print("4.")
 c=np.zeros((5,2))
 print(c)
 #[[0. 0.]
@@ -39,7 +35,6 @@ print(d)
 # [1. 1. 1. 1.]]
 
 #5. construct the N-dimensional matrix
-print("5.")
 listdata=[[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]]
 e=np.array(listdata)
 print(e)
@@ -54,7 +49,6 @@ print("數量",e.size)
 #數量 15
 
 #6. change the shape of the array reshape()
-print("6.")
 f=np.arange(1,17)
 print(f)
 #[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
