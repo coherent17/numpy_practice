@@ -48,3 +48,22 @@ print(np.ptp(c))                            #8
 
 #3. sort in numpy
 print("3.")
+d=np.random.choice(50,size=10,replace=False)
+#before sorting
+print(d)
+#after sorting
+print(np.sort(d))
+#the index after sorting
+print(np.argsort(d))
+#use the index to get the value
+for i in np.argsort(d):
+    print(d[i],end=" ")
+print("\n")
+
+#N dimension array sorting
+e=np.random.randint(0,10,(3,5))
+print(e)
+#對每一直行sort
+print(np.sort(e,axis=0))
+#對每一橫列sort
+print(np.sort(e,axis=1))
