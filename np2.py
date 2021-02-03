@@ -1,7 +1,6 @@
 import numpy as np
 
 #1. get the value of the one dimensional array
-print("1.")
 a=np.arange(0,6)   
 print(a)                #[0 1 2 3 4 5]       
 print(a[0])             #0
@@ -13,7 +12,6 @@ print(a[:3])            #[0 1 2]
 print(a[3:])            #[3 4 5]
 
 #2. get the value of the N dimensional array
-print("2.")
 b=np.arange(1,17).reshape(4,4)
 print(b)
 #[[ 1  2  3  4]
@@ -26,8 +24,6 @@ print(b[1:3,2])         #[7 11]
 print(b[1:3,1:3])       #[[6 7],[10 11]]
 
 #3. random
-print("3.")
-
 #0~1之間的隨機浮點數
 print(np.random.rand(2,3))
 
