@@ -14,3 +14,10 @@ print(a[3:])            #[3 4 5]
 
 #2. get the value of the N dimensional array
 print("2.")
+b=np.arange(1,17).reshape(4,4)
+print(b)
+#[[ 1  2  3  4]
+# [ 5  6  7  8]
+# [ 9 10 11 12]
+# [13 14 15 16]]
+print(b[2,3]) #12
