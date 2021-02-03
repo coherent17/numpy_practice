@@ -44,6 +44,6 @@ print(np.random.choice(43,6,replace=False))
 dataset=[0,5,6,3,2,4,8,6,5,6,9,7,3,11,12,15,16,19]
 print(np.random.choice(dataset,6,replace=True))
 
-#4. read the data
-data=np.genfromtxt("score.csv", skip_header=1)
+#4. read the data please store the data outside the folder 
+data=np.genfromtxt("score.csv", delimiter=",",skip_header=1)
 print(data)
