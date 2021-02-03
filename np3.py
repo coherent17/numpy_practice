@@ -1,7 +1,6 @@
 import numpy as np
 
 #1. numpy calculation
-print("1.")
 a=np.arange(1,10).reshape(3,3)
 b=np.arange(10,19).reshape(3,3)
 print(a)
@@ -47,7 +46,6 @@ print(np.median(c))                         #5.0
 print(np.ptp(c))                            #8
 
 #3. sort in numpy
-print("3.")
 d=np.random.choice(50,size=10,replace=False)
 #before sorting
 print(d)
