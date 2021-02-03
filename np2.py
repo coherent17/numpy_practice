@@ -45,5 +45,5 @@ dataset=[0,5,6,3,2,4,8,6,5,6,9,7,3,11,12,15,16,19]
 print(np.random.choice(dataset,6,replace=True))
 
 #4. read the data
-data=np.genfromtxt('scores.csv',skip_header=1)
+data=np.genfromtxt("score.csv", skip_header=1)
 print(data)
