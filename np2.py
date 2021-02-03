@@ -43,3 +43,7 @@ print(np.random.choice(43,6,replace=False))
 #在陣列中隨機取6個可以重複的隨機整數
 dataset=[0,5,6,3,2,4,8,6,5,6,9,7,3,11,12,15,16,19]
 print(np.random.choice(dataset,6,replace=True))
+
+#4. read the data
+data=np.genfromtxt('scores.csv',skip_header=1)
+print(data)
